@@ -10,9 +10,6 @@ let package = Package(
         ),
     ],
     targets: [
-        .target(
-            name: "Light-Swift-Untar",
-            path: "."
-        )
+        .target(name: "Light-Swift-Untar")
     ]
 )
